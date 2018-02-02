@@ -41,12 +41,12 @@ var routes = Routes{
         "TodoIndex",
         "GET",
         "/todos",
-        Index,
+        TodoIndex,
     },
     Route{
         "TodoShow",
         "GET",
         "/todos/{todoId}",
-        Index,
+        TodoShow,
     },
 }
